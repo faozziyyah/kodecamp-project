@@ -59,3 +59,40 @@
 .contact-intouch{
     background-color: #FF6433;
 }
+.contact{
+     margin-top: 25em;
+ }
+
+ .contact img{
+     height: 350px;
+ }
+
+ .red{
+     background-color: #f85b29;
+     color: #fff;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .link-black{
+     background-color: #232536;
+     border-radius: 3px;
+     align-self: flex-start;
+     margin-left: 5em;
+ }
+/* mobile only styles */
+@media screen and (max-width: 745px) {
+
+    .contact{
+        margin-top: 1em;
+    }
+
+    .red{
+        width: 95%;
+        margin: auto;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+}
