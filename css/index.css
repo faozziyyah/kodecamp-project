@@ -60,7 +60,7 @@
     background-color: #FF6433;
 }
 .contact{
-     margin-top: 25em;
+     margin-top: 1em;
  }
 
  .contact img{
@@ -82,6 +82,11 @@
      align-self: flex-start;
      margin-left: 5em;
  }
+.link-black a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
 /* mobile only styles */
 @media screen and (max-width: 745px) {
 
