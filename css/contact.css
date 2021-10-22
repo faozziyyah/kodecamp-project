@@ -8,6 +8,10 @@
  body{
      background-color: white;
  }
+ .get-in-touch{
+     width: 80%;
+     margin: auto;
+}
  .col-width{
      width: 35%;
      overflow: hidden;
@@ -76,3 +80,12 @@
     font-size: 8px;
     opacity: 0.6;
 }
+
+.red{
+     background-color: #f85b29;
+     color: #fff;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
