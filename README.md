@@ -45,7 +45,7 @@ Users should be able to:
 
 ### What I learned
 
-- How to use carouse in Bootstrap 5.0
+- How to use carousel in Bootstrap 5.0
 
 ```HTML
 <div id="carouselExampleCaptions" class="carousel slide d-block d-sm-block d-md-none" data-bs-ride="carousel">
