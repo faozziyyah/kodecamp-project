@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.PNG)
+![](images/Home.png)
 
 
 ### Links
@@ -47,7 +47,7 @@ Users should be able to:
 
 - How to use carouse in Bootstrap 5.0
 
-```Bootstrap carousel
+```HTML
 <div id="carouselExampleCaptions" class="carousel slide d-block d-sm-block d-md-none" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
