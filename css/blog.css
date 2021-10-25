@@ -61,3 +61,47 @@ body{
     background-size: cover;
     background-position: center;
 }
+
+@media (max-width: 600){
+    .blog-sec2{
+        background-color: #F5F5F5;
+        height: 100vh !important;
+    }
+
+    .bjdiv1{
+        height: 100px !important;
+    }
+
+    .sec4-1{
+        background-image: url(../images/sec4\ img\ 1.png);
+        height: 76vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-clip: initial;
+    }
+    
+    .sec4-2{
+        background-color: #FF6433;
+    }
+    
+    .sec4-3{
+        background-image: url(../images/ovGrEUgrkyE.png);
+        height: 76vh;
+        width: fit-content;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media(max-width: 1024px){  
+
+    .blog-sec2{
+        background-color: #F5F5F5;
+        height: 110vh !important;
+    }
+
+    .bjdiv1{
+        height: 150px !important;
+    }
+}
