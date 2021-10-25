@@ -144,6 +144,18 @@
      align-items: center;
  }
 
+.link-black{
+     background-color: #232536;
+     border-radius: 3px;
+     align-self: flex-start;
+     margin-left: 5em;
+ }
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
 @media screen and (max-width: 745px) {
 
     .red{
