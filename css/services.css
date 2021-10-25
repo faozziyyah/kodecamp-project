@@ -135,4 +135,21 @@
 
 }
 
-@media screen and (max-width: 745px) {}
+.red{
+     background-color: #f85b29;
+     color: #fff;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+@media screen and (max-width: 745px) {
+
+    .red{
+        width: 95%;
+        margin: auto;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+}
