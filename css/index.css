@@ -87,6 +87,16 @@
     color: #ffffff;
 }
 
+.more-services{
+    background-color: #f8f8f8;
+    width: 95%;
+    margin: auto;
+}
+
+.h-blue{
+    color: #7443ca;
+}
+
 /* mobile only styles */
 @media screen and (max-width: 745px) {
 

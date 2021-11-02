@@ -1,10 +1,50 @@
-*{
+
+*,html,body{
     margin: 0;
     padding: 0;
+    font-family: 'Manrope', sans-serif;
+    line-height: 1.2rem;
 }
-
-body{
-    background-color: #F5F5F5;
+.style-h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 84px;
+    color: #1E1B1B;
+}
+.btn-danger{
+    background-color:#FF6433;
+    border-color: #FF6433;
+}
+.footer-section h3{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+}
+.footer-section{
+    opacity: 0.98;
+}
+.contact-bag h6{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    opacity: 0.6;
+}
+.contact-bag h5{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 36px;
+}
+.contact-bag-footer h6{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    opacity: 0.6;
 }
 
 .ourblog{
@@ -62,7 +102,28 @@ body{
     background-position: center;
 }
 
-@media (max-width: 600){
+.red{
+    background-color: #f85b29;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-black{
+    background-color: #232536;
+    border-radius: 3px;
+    align-self: flex-start;
+    margin-left: 5em;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+@media screen and (max-width: 600px) {
     .blog-sec2{
         background-color: #F5F5F5;
         height: 100vh !important;
@@ -91,6 +152,17 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+    }
+
+    .red{
+        width: 95%;
+        margin: auto;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    .link-black{
+        margin-bottom: 4em;
     }
 }
 

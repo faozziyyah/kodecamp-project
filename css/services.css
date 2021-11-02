@@ -55,11 +55,15 @@
     height: 500px;
 }
 
+.hero-page{
+    width: 90%;
+    margin: auto;
+}
+
 .hero-word{
     background-color: #1E1B1B;
     color: #f2f2f2;
-    
-
+    height: 400px;
 }
 
 .hero-word h1{
@@ -98,34 +102,34 @@
     font-size: 14px;
 }
 
+.process{
+    width: 95%;
+    margin: auto;
+}
 
+.con{
+    align-items: center;
+    text-align: center;
+}
 
+.images{
+    justify-content: space-between;
+}
 
-.process-how h2{
+.con img{
+    margin-right: 10px;
+}
+
+.process h2, .process h3{
     font-family: Manrope;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
 }
 
-.process-through{
+.process p{
     font-family: Manrope;
     font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-}
-
-.diagnose-word h3{
-    font-family: Manrope;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-}
-
-.diagnose-word p{
-    font-family: Manrope;
-    font-style: normal;
-    font-weight: 600;
     font-size: 18px;
 }
 
@@ -163,5 +167,13 @@ a{
         margin: auto;
         padding-top: 1em;
         padding-bottom: 1em;
+    }
+
+    .images{
+        justify-content: space-between;
+    }
+
+    .images img{
+        width: 47%;
     }
 }

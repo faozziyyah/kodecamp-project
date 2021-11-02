@@ -6,43 +6,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/bootstrap.min.css">
-  <link rel="stylesheet" href="../css/navbar-footer.css">
   <link rel="stylesheet" href="../css/blog.css">
 </head>
 
 <body>
-  <section class="navigator bg-white">
+
+  <!-- Navbar -->
+  <section class="navigator">
     <nav class="container navbar navbar-expand-lg navbar-light bg-white">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img src="../images/Logo.svg" alt="logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link " href="../index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="services.html">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="blog.html" href="blog.html">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-          <div>
-            <img class="px-3" src="../images/Line.svg" alt="vline">
-            <img src="../images/Assistance.svg" alt="assistance">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img src="./images/Logo.svg" alt="logo"></a>
+          <a class="navbar-brand" href="index.html"><img src="../images/Logo.svg" alt="logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -52,7 +28,7 @@
                 <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About us</a>
+                <a class="nav-link" href="#">About us</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="services.html">Services</a>
@@ -65,13 +41,12 @@
               </li>
             </ul>
             <div>
-                <img class="px-3" src="./images/Line.svg" alt="vline">
-                <img src="./images/Assistance.svg" alt="assistance">
+                <img class="px-3" src="../images/Line.svg" alt="vline">
+                <img src="../images/Assistance.svg" alt="assistance">
             </div>
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
   </section>
 
   <section class="container-fluid vh-100">
@@ -191,108 +166,89 @@
     </div>
   </section>
 
-  <section class="container-fliud blog-sec4">
-    <div class="row align-content-center">
-      <div class="col-md-3 col-12 sec4-1">
-
-      </div>
-      <div class="col-md-4 col-12 sec4-2 pt-5 pb-5 d-flex align-content-center flex-wrap">
-        <h3 class="text-white mt-5 mx-5">Get in touch with us for your service related query</h3>
-        <button class="btn btn-lg text-white btn-dark rounded mt-4 ms-5 mb-5">Contact Us</button>
-      </div>
-      <div class="col-md-5 col-12 sec4-3">
-
-      </div>
+  <!-- contact -->
+  <section class="contact row">
+    <img class="img-fluid col-sm-12 col-md-2" src="../images/image2.png" />
+    <div class="red col-12 col-sm-12 col-md-5">
+        <h2>Get in touch with us for <br />
+               your service related query
+        </h2>
+        <div class="link-black pt-1 pb-1 ps-3 pe-3 mt-4">
+            <a href="#">contact us</a>
+        </div>
     </div>
-  </section>
+    <img class="img-fluid col-sm-12 col-md-5" src="../images/image3.png" />
+</section>
 
-  <section class="footer-section text-white bg-dark py-3">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-md-6">
-          <div class="p-5">
-            <h3>Get in touch with us for your service</h3>
-            <div class="py-4">
-              <img src="../images/facebook.svg" alt="">
-              <img class="px-1" src="../images/twitter.svg" alt="">
-              <img src="../images/instagram.svg" alt="">
-              <img class="px-1" src="../images/linkedin.svg" alt="">
-            </div>
+<!-- footer -->
+<section class="footer-section text-white bg-dark py-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <div class="p-5">
+          <h3>Get in touch with us for your  service</h3>
+          <div class="py-4">
+            <img src="../images/facebook.svg" alt="">
+            <img class="px-1" src="../images/twitter.svg" alt="">
+            <img src="../images/instagram.svg" alt="">
+            <img class="px-1" src="../images/linkedin.svg" alt="">
           </div>
         </div>
-        <div class="contact-bag col-12 col-md-6">
-          <div class="p-5">
-            <div>
-              <h6>Help line Noumber</h6>
-              <h5>1800 265 24 52</h5>
-            </div>
-            <div class="py-3">
-              <h6>Address</h6>
-              <h5>NH 234 Public Square San Francisco 65368</h5>
-            </div>
-            <div>
-              <h6>We are open</h6>
-              <h5>Monday to Friday 9:00 AM to 10:00 AM</h5>
-            </div>
+      </div>  
+      <div class="contact-bag col-12 col-md-6">
+        <div class="p-5">
+          <div>
+            <h6>Help line Noumber</h6>
+            <h5>1800 265 24 52</h5>
           </div>
+          <div class="py-3">
+            <h6>Address</h6>
+            <h5>NH 234   Public Square San Francisco  65368</h5>
+          </div>
+          <div>
+            <h6>We are open</h6>
+            <h5>Monday to Friday 9:00 AM to  10:00  AM</h5>
+          </div>  
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="navigator-bottom bg-dark p-2">
-    <nav class="container navbar navbar-expand-sm navbar-dark bg-dark">
+<section class="navigator-bottom bg-dark p-2">
+  <nav class="container navbar navbar-expand-sm navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html"><img src="../images/Logologo-buttom.svg" alt="logo"></a>
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="index.html" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="about-us.html">About us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="services.html">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="blog.html">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="contact-us.html">Contact Us</a>
-          </li>
-        </ul>
-        <div class="contact-bag-footer text-white ms-auto">
-          <h6>@ Copyright Finsweet 2021</h6>
-=======
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img src="./images/Logologo-buttom.svg" alt="logo"></a>
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="index.html" href="../index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="about.html">About us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="services.html">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="blog.html">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="contact.html">Contact Us</a>
-              </li>
-            </ul>
-            <div class="contact-bag-footer text-white ms-auto">
-               <h6>@ Copyright Finsweet 2021</h6>
-            </div>
-        </div>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="index.html" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <div class="contact-bag-footer text-white ms-auto">
+             <h6>@ Copyright Finsweet 2021</h6>
+          </div>
       </div>
     </nav>
-  </section>
+</section>
 
 
-  <script src="../script/bootstrap.min.js/"></script>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js" ></script>
+
 </body>
-
 </html>
