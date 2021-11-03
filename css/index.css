@@ -89,8 +89,10 @@
 
 .more-services{
     background-color: #f8f8f8;
-    width: 95%;
+    width: 100%;
     margin: auto;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .h-blue{
@@ -109,5 +111,15 @@
         margin: auto;
         padding-top: 1em;
         padding-bottom: 1em;
+    }
+
+    .more-services{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #f8f8f8;
+        width: 100%;
+        margin: auto;
+        margin-top: 1em;
     }
 }
